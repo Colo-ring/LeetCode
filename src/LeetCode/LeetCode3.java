@@ -3,10 +3,6 @@ package LeetCode;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * @author IntelliYJC
- * @create 2022/8/27 13:35
- */
 public class LeetCode3 {
     public static void main(String[] args) {
         Solution3 s = new Solution3();
