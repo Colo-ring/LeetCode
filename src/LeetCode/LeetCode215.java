@@ -1,5 +1,9 @@
 package LeetCode;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author IntelliYJC
  * @create 2022/9/3 22:02
@@ -9,6 +13,10 @@ public class LeetCode215 {
         Solution215 ss = new Solution215();
         int res = ss.findKthLargest(new int[]{5,2,4,1,3,6,0}, 4);
         System.out.println(res);
+        List<Integer> aa = new ArrayList<>();
+        aa.add(1);
+
+        Collections.sort(aa);
     }
 }
 
