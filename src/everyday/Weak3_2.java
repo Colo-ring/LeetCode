@@ -2,6 +2,7 @@ package everyday;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Weak3_2 {
@@ -12,6 +13,7 @@ public class Weak3_2 {
     static boolean[][][] st;
     static int sx, sy, tx, ty;
     static int m, n, k;
+    static Random random = new Random(System.currentTimeMillis());
 
     private static boolean bfs() {
         dist = new int[m][n][4];

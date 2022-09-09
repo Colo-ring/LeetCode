@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * @author IntelliYJC
  * @create 2022/9/7 16:00
+ * 求一个字符串出现最多的字母和出现次数
  */
 public class test1 {
     public static void main(String[] args) {
